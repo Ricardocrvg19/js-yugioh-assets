@@ -11,10 +11,17 @@
     <link rel="stylesheet" href="./src/styles/containers_and_frames.css">
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/main.css">
+
+    <link rel="shortcut icon" href="./src/assets/favicon/Favicon.ico" type="image/x-icon">
     <title>YU-GI-OH</title>
 </head>
 
 <body>
+    <audio id="bgm" loop>
+        <source src="./src/assets/audios/egyptian_duel.mp3">
+    </audio>
+
+
     <div class='bg-video'>
         <video class='video' autoplay loop muted>
             <source src='./src/assets/video/yugi.mp4' type='video/mp4'>
@@ -32,8 +39,8 @@
             </div>
 
             <div class="avatar-details frame">
-                <p class='card-name'>Ricardo</p>
-                <p class='card-type'>O FODA</p>
+                <p id='card-name'>Selecione</p>
+                <p id='card-type'>uma carta</p>
             </div>
         </div>
 
